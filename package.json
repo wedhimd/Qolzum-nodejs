@@ -1,0 +1,26 @@
+{
+  "name": "qolzum-nodejs",
+  "version": "0.1.0",
+  "description": "Qolzum news portal website.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wedhimd/Qolzum-nodejs.git"
+  },
+  "author": "Mohammed Ali Himed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wedhimd/Qolzum-nodejs/issues"
+  },
+  "homepage": "https://github.com/wedhimd/Qolzum-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
